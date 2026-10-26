@@ -1,0 +1,9 @@
+python -m venv .venv
+
+.\.venv\Scripts\Activate.ps1
+
+//Выбор интопретатора venv// - ctrl+shift+p - select interpritator 
+
+python -m pip install --upgrade pip
+
+pip freeze > requirements.txt (pip list for only look)

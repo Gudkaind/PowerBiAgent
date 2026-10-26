@@ -1,0 +1,25 @@
+pbix-mcp-server --help
+
+//if dont work//
+pip install "mcp<2"
+pip install --force-reinstall pbix-mcp
+
+
+
+
+postgresql-server-mcp 
+postgresql-server-mcp --pg-host localhost --pg-port 5432 --pg-user postgres --pg-password 123456 --pg-database postgres --test-conection
+
+//if dont work//
+pip install uv 
+uvx postgresql-server-mcp --help
+uvx --with "mcp<2" postgres-mcp==0.3.0 --help
+
+//if dont work//
+ uvx mcpg --version
+ $env:MCPG_DATABASE_URL="postgresql://postgres:123456@localhost:5432/postgres"; uvx mcpg 
+ CTRL + C (OR RESTART TERMINAL)
+
+@microsoft/powerbi-modeling-mcp 
+open pbix 
+npx -y @microsoft/powerbi-modeling-mcp --start --accept-eula
