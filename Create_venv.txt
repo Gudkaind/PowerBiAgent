@@ -6,4 +6,4 @@ python -m venv .venv
 
 python -m pip install --upgrade pip
 
-pip freeze > requirements.txt (pip list for only look)
+pip freeze > requirements.txt (or pip list for only look)

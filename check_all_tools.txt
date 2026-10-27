@@ -1,3 +1,4 @@
+CHECK
 pbix-mcp-server --help
 
 //if dont work//
@@ -6,7 +7,7 @@ pip install --force-reinstall pbix-mcp
 
 
 
-
+CHECK
 postgresql-server-mcp 
 postgresql-server-mcp --pg-host localhost --pg-port 5432 --pg-user postgres --pg-password 123456 --pg-database postgres --test-conection
 
@@ -23,3 +24,4 @@ uvx --with "mcp<2" postgres-mcp==0.3.0 --help
 @microsoft/powerbi-modeling-mcp 
 open pbix 
 npx -y @microsoft/powerbi-modeling-mcp --start --accept-eula
+CTRL + C (OR RESTART TERMINAL)
